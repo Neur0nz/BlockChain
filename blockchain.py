@@ -24,7 +24,7 @@ class Blockchain:
         self.public_key = public_key
         self.node_id = node_id
         self.resolve_conflicts = False
-        print(f'the node id is: {node_id}')
+        print(f'The node ID is: {node_id}')
         self.__peer_nodes = set()
         self.load_data()
 
